@@ -1,0 +1,17 @@
+*{
+    font-family:Arial ;
+}
+
+header{
+    background-color: blanchedalmond;
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+
+    }
+
+header img{
+    height: 200px;
+
+}
+
