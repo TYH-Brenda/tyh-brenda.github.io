@@ -1,13 +1,17 @@
 *{
-    font-family:Arial ;
+    font-family:"Asap",sans-serif;
+    position:relative;
+
 }
+
 
 header{
     background-color: blanchedalmond;
     color:black;
     text-align: center;
-    padding: 10px 0;
-
+    padding: 20px 0;
+    position:relative;
+    top: 40px;
     }
 
 header img{
@@ -15,3 +19,28 @@ header img{
 
 }
 
+.navbar{
+    background-color: #eff0d5;
+    list-style-type: none;
+    position: fixed;
+    text-align:center;
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    float: none;
+    z-index: 1;
+
+
+}
+
+.navbar li{
+    display: inline-block; 
+    padding:10px ;
+    
+
+}
+
+.navbar li:hover{
+    color: #eff0d5;
+    background-color: #59594e;
+}
